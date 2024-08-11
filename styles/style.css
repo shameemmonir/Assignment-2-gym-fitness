@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: rgb(34, 34, 34);
+    
+}
+
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+/* navber style start here  */
+.navbar-wraper {}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-menu-btn {
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#btn-home {
+    background: rgb(230, 83, 60);
+    padding: 5px 20px;
+    border-radius: 3rem;
+}
+
+.nav-btn-container {
+    cursor: pointer;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+
+.nav-hamburger-menu {
+    display: none;
+}
+
+/* navbar style end here  */
+
+/* shape & stay healthy area style start here */
+.healthy-container {
+    display: flex;
+    align-items: center;
+}
+
+.healthy-description {
+    position: absolute;
+    width: 500px;
+    height: 440px;
+    top: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.healthy-description h1 {
+    color: rgba(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.shape {
+    font-family: Miama, sans-serif;
+    font-style: italic;
+}
+
+.healthy-description p {
+    color: rgba(255, 255, 255, 0.5);
+    width: 32.5rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin: 1.75rem 0;
+}
+
+.btn-primary {
+    border-radius: 3rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-download {
+    color: white;
+    background: rgb(34, 34, 34);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3rem;
+}
+
+.healthy-img {
+    position: absolute;
+    width: 21.8rem;
+    height: 36.25rem;
+    left: 54.81rem;
+    top: 8.44rem;
+}
+
+.video-tutorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+    width: max-content;
+    width: 206px;
+    height: 96px;
+    border-radius: 10px;
+    top: 80%;
+    position: absolute;
+}
+
+.circle {
+    background: rgb(230, 83, 60);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+.video-number {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.video-text {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.free-video {
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+    width: max-content;
+    width: 180px;
+    height: 80px;
+    font-size: 2rem;
+    border-radius: 10px;
+    top: 25%;
+    left: 68%;
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.free-video-text {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* shape & stay healthy area style end here */
+
+/* Change your habits style start here  */
+.habit-container {
+    margin-top: 660px;
+    width: 1044px;
+    height: 452px;
+}
+
+.your-habit-description {
+    text-align: center;
+}
+
+.your-habit-description h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.your-habit-description p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    margin-top: 1rem;
+}
+
+.fitness-description {
+    text-align: center;
+    width: 231px;
+    height: 64px;
+    margin-top: 1.2rem;
+}
+
+.fitness-container {
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.fitness-image {
+    width: 231px;
+    height: 274px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    text-align: center;
+}
+
+.fitness-image img {
+    border-radius: 50%;
+    left: -11.5px;
+}
+
+.fitness-image {
+    text-align: center;
+}
+
+.fitness-description h3 {
+    color: rgba(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.fitness-description p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+}
+
+/* Change your habits style end here  */
+
+/* Run an Extra Mile area style start here */
+.run-container {
+    display: flex;
+    margin-top: 3.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.run-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.run-description h1 {
+    font-size: 3rem;
+    color: rgba(255, 255, 255);
+    font-weight: 900;
+    width: 25rem;
+}
+
+.run-description p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 23rem;
+    margin-top: 0.8rem;
+}
+
+.run-description button {
+    margin-top: 1.5rem;
+    padding: 1rem 2.8rem 1rem 2.8rem;
+}
+
+.run-img img {
+    margin-top: 0.5rem;
+    height: 250px;
+    border-radius: 1rem;
+
+}
+
+/* Run an Extra Mile area style end here */
+
+/* BMI calculator style start here  */
+.bmi-section-container{
+    margin-top: 6.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+}
+.bmi-calculator{
+    margin: 2.5rem 0rem 2.5rem 15rem;
+}
+.bmi-calculator h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-calculator p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 40rem;
+}
+
+.bmi-calculator-container{
+    display: flex;
+}
+.bmi-container-description{
+    /* width: 500px; */
+    /* margin-top: 2rem; */
+}
+.bmi-container-description h3{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.bmi-container-description p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.bmi-container-description table tr th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+
+}
+.bmi-container-description table tr td{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 0.9;
+    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    gap: 0.5px;
+}
+.bmi-input{
+    /* width: 85%; */
+    margin-top: 1.5rem; 
+}
+.input-1{
+    /* width: 40%; */
+}
+.bmi-input1{
+    /* width: 85%; */
+}
+.bmi-input2{
+    display: flex;
+    flex-direction: column;
+}
+.select-1{
+    /* width: 42%; */
+}
+.select-2{
+    /* width: 85%; */
+}
+.btn-primary{
+    /* width: 65%; */
+    font-size: 1.3rem; 
+}
+/* BMI calculator style end here  */
