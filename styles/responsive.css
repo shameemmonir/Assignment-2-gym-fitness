@@ -93,7 +93,9 @@
         flex-direction: column;
     }
 
-    
+    .meet-our-team-description{
+        width: 500px;
+    }
 
     
 }

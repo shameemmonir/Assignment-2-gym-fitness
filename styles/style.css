@@ -336,7 +336,8 @@ body {
     font-weight: 400;
     width: 40rem;
 }
-.calculate-bmi-container{
+
+.calculate-bmi-container {
     width: 1340px;
     margin-top: 1.5rem;
     background: rgba(255, 255, 255, 0.1);
@@ -344,6 +345,7 @@ body {
     padding-top: 2rem;
     padding-right: 9rem;
 }
+
 .bmi-calculator-container {
     display: flex;
 }
@@ -398,9 +400,7 @@ body {
     font-weight: 400;
 }
 
-.bmi-input {
-    
-}
+.bmi-input {}
 
 .input-1 {
     border-radius: 8px;
@@ -426,7 +426,7 @@ body {
 }
 
 .select-2 {
-    width: 250px;
+    width: 500px;
 }
 
 .btn-primary {
@@ -514,19 +514,46 @@ body {
     padding: 1rem 0;
     color: rgba(255, 255, 255, 0.6);
 }
+
 /* Our services area style end here  */
 
 /* Meet our team style start here  */
-    .meet-our-team-description{
-        /* width: 1060px; */
-        text-align: center;
-        margin-top: 3rem;
-    }
-    .meet-our-team-title{
-        color: rgba(255, 255, 255);
-        font-size: 2rem;
-    }
-    .meet-our-team-description p{
-        color: rgba(255, 255, 255, 0.6);
-    }
+.team-image-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meet-our-team-description {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.meet-our-team-title {
+    color: rgba(255, 255, 255);
+    font-size: 2rem;
+}
+
+.meet-our-team-description p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.team-image {
+    position: relative;
+    color: white;
+}
+.team-image img{
+    width: 21rem;
+    height: 19rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 1.5rem;
+}
+
 /* Meet our team style end here  */
