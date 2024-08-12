@@ -2,7 +2,7 @@
     body {
         max-width: 500px;
         margin: 0 auto;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     
     .nav-hamburger-menu {
@@ -48,7 +48,7 @@
 
     .run-container {
         flex-direction: column;
-        margin-top: 55rem;
+        margin-top: 57rem;
         padding-left: 3.2rem;
         width: 500px;
     }
@@ -66,7 +66,11 @@
         width: 440px;
         line-height: 1.5rem;
     }
-    
+    .calculate-bmi-container{
+        width: 500px;
+        padding-bottom: 2rem;
+        border-radius: 1rem;
+    }
     .bmi-calculator-container{
         flex-direction: column;
     }
@@ -107,6 +111,33 @@
     .team-image{
         margin-left: 3.5rem;
     }
-
+    .footer{
+        width: 575px;
+        margin-left: -25px;
+        padding-left: 50px;
+    }
+    .footer hr{
+        width: 575px;
+        margin-left: 0rem;
+    }
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0rem;
+    }
+    .footer-fitness h1 {
+        padding-left: 3.5rem;
+        font-size: 4.38rem;
+    }
+    .footer-text{
+        padding-left: 3.5rem;
+    }
+    .footer-get-started h3{
+        margin-top: 3rem;
+        padding-left: 0rem;
+    }
+    .footer-description p{
+        padding-left: 0rem;
+    }
     
 }

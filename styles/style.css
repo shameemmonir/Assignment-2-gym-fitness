@@ -10,7 +10,7 @@
 body {
     font-family: "Inter", sans-serif;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background: rgb(34, 34, 34);
+    background: rgb(0, 0, 0);
 
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-menu-btn {
-    background: rgb(34, 34, 34);
+    background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 1rem;
     padding: 5px;
@@ -70,6 +70,7 @@ body {
 
 /* shape & stay healthy area style start here */
 .healthy-container {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     display: flex;
     align-items: center;
 }
@@ -244,7 +245,9 @@ body {
     gap: 25px;
     text-align: center;
 }
-
+.image-container img{ 
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
 .fitness-image img {
     border-radius: 50%;
     left: -11.5px;
@@ -389,9 +392,6 @@ body {
 
 .bmi-container-description {
     width: 560px;
-    /* height: 386px; */
-    /* left: 500px;
-    top: 49px; */
 }
 
 .bmi-container-description p {
@@ -557,3 +557,58 @@ body {
 }
 
 /* Meet our team style end here  */
+
+/* Footer section style start here  */
+.footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-top: 4rem;
+}
+
+.footer-description {
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 0;
+}
+.footer-fitness{
+    width: 25rem;
+}
+.footer-fitness h1 {
+    font-size: 4.38rem;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+.footer-fitness p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+.footer-get-started{
+    width: 18.75rem;
+    margin-left: 5.5rem;
+    line-height: 2rem;
+}
+.footer-get-started h3 {
+    font-size: 1.5rem;
+}
+
+.footer-get-started p {
+    margin: 8px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer hr {
+    width: 80%;
+    margin-left: 130px;
+}
+
+.footer small {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+/* Footer section style end here  */
