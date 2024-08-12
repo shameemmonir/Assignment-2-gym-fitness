@@ -25,7 +25,7 @@ body {
 .navbar-main {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 20px;
     align-items: center;
@@ -407,7 +407,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     margin-top: 1.5rem;
-    width: 49%;
+    width: 250px;
     height: 48px;
     padding-left: 0.8rem;
 }
@@ -426,7 +426,7 @@ body {
 }
 
 .select-2 {
-    width: 99%;
+    width: 250px;
 }
 
 .btn-primary {

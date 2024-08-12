@@ -1,12 +1,16 @@
 @media screen and (max-width:576px) {
     body {
         width: 500px;
+        margin: 0 auto;
     }
     
     .nav-hamburger-menu {
         display: block;
         font-size: 1.5rem;
         color: rgb(255, 255, 255);
+    }
+    .navbar-wraper{
+        width: 500px;
     }
 
     .nav-btn-container {
@@ -15,6 +19,7 @@
 
     .healthy-container {
         flex-direction: column;
+        width: 500px;
     }
 
     .healthy-img {
@@ -41,21 +46,39 @@
     }
 
     .run-container {
-        display: flex;
         flex-direction: column;
         margin-top: 55rem;
         padding-left: 3.2rem;
-        width: 100%;
-        height: 100%;
+        width: 500px;
     }
 
     .run-description button {
         margin: 1.5rem 0rem;
         width: 24rem;
     }
-    .bmi-calculator-container{
-        flex-direction: column;
+    .bmi-calculator{
+        width: 500px;
+        margin-left: 1rem;
+    }
+    .bmi-calculator p{
         width: 500px;
     }
+    .bmi-calculator-container{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .calculate-bmi-container{
+        width: 500px;
+    }
+    .your-bmi-calculate{
+        width: 500px;
+    }
+    /* .bmi-calculator-title{
+        margin-left: 1rem;
+    } */
+    
 
+
+
+    
 }
