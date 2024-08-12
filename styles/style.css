@@ -435,3 +435,83 @@ body {
 }
 
 /* BMI calculator style end here  */
+
+/* Our services area style start here  */
+.service-header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+    color: rgba(255, 255, 255);
+
+}
+
+.services-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.service1 {
+    width: 350px;
+    border: 10px;
+    margin: 20px;
+    /* height: 600px; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+}
+
+.service-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge-img {
+    width: 70px;
+    top: -30px;
+    left: 85%;
+    position: absolute;
+}
+
+.service-description {
+    padding: 15px;
+    line-height: .5;
+}
+
+.fitness {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.services-footer {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 10px;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.price {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+
+.price-btn {
+    color: red;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.cardio {
+    font-size: 1.9;
+    padding: 1rem 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Our services area style end here  */

@@ -77,15 +77,7 @@
     .bmi-container-description p{
         width: 440px;
     }
-    .calculate-bmi-container{
-        /* width: 575px; */
-    }
-    .your-bmi-calculate{
-        /* width: 500px; */
-    }
-    .bmi-calculator-title{
-        /* margin-left: 1rem; */
-    }
+    
     .bmi-input{
         width: 450px;
         margin-right: 5rem;
@@ -97,6 +89,9 @@
         width: 400px;
     }
     
+    .services-container{
+        flex-direction: column;
+    }
 
 
 
