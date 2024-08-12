@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
     body {
-        width: 500px;
+        max-width: 500px;
         margin: 0 auto;
+        /* overflow-x: hidden; */
     }
     
     .nav-hamburger-menu {
@@ -60,22 +61,41 @@
         width: 500px;
         margin-left: 1rem;
     }
+
     .bmi-calculator p{
-        width: 500px;
+        width: 440px;
+        line-height: 1.5rem;
     }
+    
     .bmi-calculator-container{
         flex-direction: column;
-        margin-left: 0;
+    }
+    .bmi-container-description{
+        /* position: absolute; */
+        margin-left: -5rem;
+    }
+    .bmi-container-description p{
+        width: 440px;
     }
     .calculate-bmi-container{
-        width: 500px;
+        /* width: 575px; */
     }
     .your-bmi-calculate{
-        width: 500px;
+        /* width: 500px; */
     }
-    /* .bmi-calculator-title{
-        margin-left: 1rem;
-    } */
+    .bmi-calculator-title{
+        /* margin-left: 1rem; */
+    }
+    .bmi-input{
+        width: 450px;
+        margin-right: 5rem;
+    }
+    .input-1{
+        width: 200px;
+    }
+    .select-2{
+        width: 400px;
+    }
     
 
 
