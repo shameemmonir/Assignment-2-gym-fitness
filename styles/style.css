@@ -515,3 +515,18 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 /* Our services area style end here  */
+
+/* Meet our team style start here  */
+    .meet-our-team-description{
+        /* width: 1060px; */
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .meet-our-team-title{
+        color: rgba(255, 255, 255);
+        font-size: 2rem;
+    }
+    .meet-our-team-description p{
+        color: rgba(255, 255, 255, 0.6);
+    }
+/* Meet our team style end here  */
