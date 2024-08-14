@@ -2,7 +2,8 @@
     body {
         max-width: 500px;
         margin: 0 auto;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
+        border: 1px solid tomato;
     }
     
     .nav-hamburger-menu {
@@ -11,7 +12,7 @@
         color: rgb(255, 255, 255);
     }
     .navbar-wraper{
-        width: 500px;
+        /* width: 500px; */
     }
 
     .nav-btn-container {
@@ -20,7 +21,7 @@
 
     .healthy-container {
         flex-direction: column;
-        width: 500px;
+        max-width: 500px;
     }
 
     .healthy-img {
@@ -50,7 +51,7 @@
         flex-direction: column;
         margin-top: 57rem;
         padding-left: 3.2rem;
-        width: 500px;
+        width: 100%;
     }
 
     .run-description button {
@@ -138,6 +139,11 @@
     }
     .footer-description p{
         padding-left: 0rem;
+    }
+
+
+    .calculate-bmi-container{
+        max-width: 250px;
     }
     
 }
