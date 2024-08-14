@@ -1,18 +1,19 @@
 @media screen and (max-width:576px) {
+    
     body {
         max-width: 500px;
         margin: 0 auto;
-        /* overflow-x: hidden; */
-        border: 1px solid tomato;
+        overflow-x: hidden;
     }
-    
+
     .nav-hamburger-menu {
         display: block;
         font-size: 1.5rem;
-        color: rgb(255, 255, 255);
+        color: rgb(143, 77, 77);
     }
-    .navbar-wraper{
-        /* width: 500px; */
+
+    .navbar-wraper {
+        width: 500px;
     }
 
     .nav-btn-container {
@@ -23,10 +24,13 @@
         flex-direction: column;
         max-width: 500px;
     }
+    .healthy-description p{
+        max-width: 500px;
+    }
 
     .healthy-img {
         position: static;
-        margin-top: 33rem;
+        margin-top: 38rem;
     }
 
     .video-tutorial {
@@ -34,7 +38,10 @@
     }
 
     .free-video {
-        margin-top: 35rem;
+        position: absolute;
+        margin-top: 40rem;
+        left: 55%;
+        line-height: 0px;
     }
 
     .habit-container {
@@ -49,101 +56,135 @@
 
     .run-container {
         flex-direction: column;
-        margin-top: 57rem;
+        margin-top: 60rem;
         padding-left: 3.2rem;
-        width: 100%;
+        width: 500px;
     }
 
     .run-description button {
         margin: 1.5rem 0rem;
         width: 24rem;
     }
-    .bmi-calculator{
+
+    .bmi-calculator {
         width: 500px;
         margin-left: 1rem;
     }
 
-    .bmi-calculator p{
+    .bmi-calculator p {
         width: 440px;
         line-height: 1.5rem;
     }
-    .calculate-bmi-container{
+
+    .calculate-bmi-container {
         width: 500px;
         padding-bottom: 2rem;
         border-radius: 1rem;
     }
-    .bmi-calculator-container{
-        flex-direction: column;
-    }
-    .bmi-container-description{
-        /* position: absolute; */
-        margin-left: -5rem;
-    }
-    .bmi-container-description p{
-        width: 440px;
-    }
-    
-    .bmi-input{
-        width: 450px;
-        margin-right: 5rem;
-    }
-    .input-1{
-        width: 200px;
-    }
-    .select-2{
-        width: 400px;
-    }
-    
-    .services-container{
+
+    .bmi-calculator-container {
         flex-direction: column;
     }
 
-    .meet-our-team-description{
+    .bmi-container-description {
+        margin-left: -5rem;
+    }
+
+    .bmi-container-description p {
+        width: 440px;
+    }
+
+    .bmi-input {
+        width: 450px;
+        margin-right: 5rem;
+    }
+
+    .input-1 {
+        width: 200px;
+    }
+
+    .select-2 {
+        width: 440px;
+    }
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    .meet-our-team-description {
         width: 500px;
     }
-    .meet-our-team-description p{
+
+    .meet-our-team-description p {
         width: 450px;
     }
-    .team-image-container{
+
+    .team-image-container {
         width: 450px;
         grid-template-columns: repeat(1, 1fr);
-        /* text-align: center; */
     }
-    .team-image{
+
+    .team-image {
         margin-left: 3.5rem;
     }
-    .footer{
+
+    .footer {
         width: 575px;
         margin-left: -25px;
         padding-left: 50px;
     }
-    .footer hr{
+
+    .footer hr {
         width: 575px;
         margin-left: 0rem;
     }
-    .footer-description{
+
+    .footer-description {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 0rem;
     }
+
     .footer-fitness h1 {
         padding-left: 3.5rem;
         font-size: 4.38rem;
     }
-    .footer-text{
+
+    .footer-text {
         padding-left: 3.5rem;
     }
-    .footer-get-started h3{
+
+    .footer-get-started h3 {
         margin-top: 3rem;
         padding-left: 0rem;
     }
-    .footer-description p{
+
+    .footer-description p {
         padding-left: 0rem;
     }
 
 
-    .calculate-bmi-container{
+    .calculate-bmi-container {
         max-width: 250px;
     }
-    
+
+    .footer {
+        max-width: 576px;
+    }
+    small{
+        max-width: 500px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .healthy-container {
+        max-width: 576px;
+    }
+
+    hr {
+        position: relative;
+        right: 30px;
+        max-width: 576px;
+    }
+
 }
